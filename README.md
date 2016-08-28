@@ -20,3 +20,7 @@ Options available:
 ## Running
 
 	java -jar --stweets "#Xfactor;#BakeOffBrazil" --output C:\opt	
+
+## Contact
+
+	https://www.linkedin.com/in/adail-carvalho-a34343106
