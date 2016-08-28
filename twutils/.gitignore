@@ -1,0 +1,38 @@
+# Package Files #
+*.jar
+*.war
+*.ear
+
+#java/scala
+*.class
+*.log
+
+#intellij
+*.iml
+*/*.iml
+*.idea
+.idea
+.DS_Store
+*/.DS_Store
+
+#eclipse
+*.prefs
+
+# sbt specific
+.cache
+.history
+.lib/
+dist/*
+target/
+lib_managed/
+src_managed/
+project/boot/
+project/plugins/project/
+
+# Scala-IDE specific
+.scala_dependencies
+.worksheet
+.classpath
+.project
+.settings/org.eclipse.wst.common.component
+.settings/org.eclipse.wst.common.project.facet.core.xml
