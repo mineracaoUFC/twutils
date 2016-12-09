@@ -1,16 +1,31 @@
-## Twutils
+# Twutils
 
-A simple Java utility to search and retrieve tweets.
+Um simples utilitário Java para pesquisa e obtenção de tweets.
 
+## Get Started
+
+1 - Baixe esse projeto.
+
+2 - 
+
+3 - No arquivo utils/DefautValues.java, você pode configurar a quantidade de tweets que você quer pesquisar por requisição, o separador do arquivo, e o tempo de execução entre as execuções.
+
+```java
+	public static final int DEFAULT_COUNT = 100;
+	
+	public static final String DEFAULT_CSV_SEPARATOR = ";";
+
+	public static final int DEFAULT_THREAD_WAIT_TIME = 15000;
+```
 ## Build
 
-To create an executable jar file.
+Para criar um arquivo executavel jar.
 
 	mvn clean install assembly:single
 
-## Options
+## Opções
 
-Options available:
+Opções disponíveis:
 
     --help           Show help.
     --output <out>   Output dir of tweets.
